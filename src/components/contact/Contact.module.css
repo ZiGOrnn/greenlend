@@ -1,0 +1,20 @@
+.contact {
+  min-height: 400px;
+  max-width: 500px;
+  margin: auto;
+  padding: 45px 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content {
+  width: 100%;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 30px;
+}
+

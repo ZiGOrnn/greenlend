@@ -1,0 +1,27 @@
+.build {
+  margin: 60px auto;
+  max-width: 600px;
+  min-width: 400px;
+  /* width: 100%; */
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.build img {
+  cursor: pointer;
+  object-fit: cover;
+  width: auto;
+  margin: 24px 0;
+}
+
+.build img:active {
+  opacity: 0.7;
+}
+
+@media only screen and (max-width: 600px) {
+  .build {
+    flex-direction: column;
+    align-items: center;
+  }
+}

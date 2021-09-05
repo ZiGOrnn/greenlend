@@ -1,0 +1,15 @@
+.card {
+  padding: 16px;
+  max-width: 380px;
+  margin: auto;
+}
+.card img {
+  height: 46px;
+  object-fit: cover;
+}
+.card h4,
+.card h6,
+.card p {
+  margin-top: 24px;
+}
+

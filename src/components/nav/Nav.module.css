@@ -1,0 +1,38 @@
+.container {
+  z-index: 1;
+  width: 100%;
+  padding: 10px 22px;
+  position: sticky;
+  top: 0;
+  /* background: rgba(0, 0, 0, 0.8); */
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+}
+.layout {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  max-width: 1024px;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-size: 28px;
+  font-weight: bold;
+}
+.logo img {
+  height: 40px;
+}
+
+.spacer {
+  flex: 1;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  justify-content: space-between;
+}

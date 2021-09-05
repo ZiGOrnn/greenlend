@@ -1,0 +1,17 @@
+.buttonNative {
+  text-align: center;
+  height: 44.8px;
+  padding: 0 12px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: inherit;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.buttonNative:hover {
+  opacity: 0.9;
+}
+.buttonNative:active {
+  opacity: 0.8;
+}

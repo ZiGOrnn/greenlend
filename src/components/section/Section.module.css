@@ -1,0 +1,9 @@
+.section {
+  min-height: 500px;
+  max-width: 1124px;
+  margin: auto;
+  padding: 60px 16px;
+}
+.subtitle {
+  margin-top: 8px;
+}
