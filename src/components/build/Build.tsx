@@ -19,13 +19,11 @@ function Build({ team }: Props): ReactElement {
           )
         }
       >
-        <img
-          src={
-            state.mode ? "/img/logo-knockout.png" : "/img/EVA4GPqUwAAcqUJ.png"
-          }
-          alt=""
-          height="45"
-        />
+        {state.mode ? (
+          <img src="/img/logo-knockout.png" alt="" height="45" />
+        ) : (
+          <img src="/img/EVA4GPqUwAAcqUJ.png" alt="" height="45" />
+        )}
       </div>
       <div
         onClick={() =>
@@ -34,15 +32,15 @@ function Build({ team }: Props): ReactElement {
           )
         }
       >
-        <img
-          src={
-            state.mode
-              ? "/img/new-binance-chain-logo-1-1.png"
-              : "/img/binance-smart-chain-logo-802A74A1DB-seeklogo.com.png"
-          }
-          alt=""
-          height="45"
-        />
+        {state.mode ? (
+          <img src="/img/new-binance-chain-logo-1-1.png" alt="" height="45" />
+        ) : (
+          <img
+            src="/img/binance-smart-chain-logo-802A74A1DB-seeklogo.com.png"
+            alt=""
+            height="45"
+          />
+        )}
       </div>
       {team && (
         <div
@@ -52,11 +50,11 @@ function Build({ team }: Props): ReactElement {
             )
           }
         >
-          <img
-            src={state.mode ? "/img/team-white.png" : "/img/team.png"}
-            alt=""
-            height="45"
-          />
+          {state.mode ? (
+            <img src="/img/team-white.png" alt="" height="45" />
+          ) : (
+            <img src="/img/team.png" alt="" height="45" />
+          )}
         </div>
       )}
     </div>
