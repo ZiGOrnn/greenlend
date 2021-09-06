@@ -45,7 +45,7 @@
   justify-content: center;
   flex-direction: column;
   text-align: center;
-  max-width: 650px;
+  max-width: 750px;
   margin: auto;
   padding: 0 16px;
 }
@@ -54,7 +54,8 @@
   font-weight: bold;
 }
 .subtitle {
-  font-size: 18px;
+  font-size: 20px;
   margin: 100px 0;
   font-weight: bold;
+  max-width: 600px;
 }
