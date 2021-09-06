@@ -13,7 +13,7 @@ function Contact({}: Props): ReactElement {
     <div className={styles.contact}>
       <div className={styles.content}>
         <Input
-          style={{ backgroundColor: "inherit", border: "1px solid grey" }}
+          style={{ backgroundColor: "inherit", border: "1px solid grey", color: state.mode ? "white" : "black" }}
           placeholder="Email"
         />
         <div className={styles.button}>
